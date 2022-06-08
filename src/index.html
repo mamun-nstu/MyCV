@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="preload"
+      href="./fonts/Jost-Medium.woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link href="/assets/output.css" rel="stylesheet">
+</head>
+<body style="background-color: #b3cdd1; background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);">
+
+    <p><button id="download" class="btn btn-download">Download as PDF</button></p>
+    
+    <div id="resume" class="bg-slate-100 font-jost rounded-2xl border-4 border-cyan-900 mx-20 mb-20 mt-10 p-10 text-slate-700">
+        
+        
+        <div class="flex h-52">
+            <div class="space-y-2 pt-5">
+                <h1 class="text-5xl font-bold "> Abdullah Al-Mamun </h1>
+                <section class="text-3xl font-semibold">Frontend Web Developer</section>
+                <section class="font-semibold text-slate-500">
+                    <p>Taher Loj 1048, Khilbarirtek, Shahjadpur, Gulshan-1212</p>
+                    <p>+8801303599966</p> 
+                    <p>amamun.nstu@gmail.com</p> 
+                </section>
+            </div>
+            <img class="rounded-full h-30 ml-auto ring-4 ring-gray-300" src="/images/proloy.jpg" alt="">
+        </div>
+
+        <div id="spacer"></div>
+        
+
+        <div class="grid grid-cols-2 space-x-6 text-justify">
+            <div>
+                <div>
+                    <P class="section-title">SUMMARY</P>
+                    <p class=" pt-2">Passionate, self-motivated and hardworking individual who is eager to mature as a frontend developer in a professional environment. I am a fast learner who likes to take challenges and learn from them. Currently, I am practicing front-end development but I am motivated to become a full-stack web developer. Have a desire to be a part of a leading and well-established organization with a stable and vibrant environment to utilize my skills, knowledge, abilities, and programming expertise.</p>
+                    <div class="end-line"></div>
+                </div>
+                <div>
+                    <P class="section-title">EXPERIENCE</P>
+                    <div class="flex pt-2">
+                        <div>
+                            <p class="font-semibold">BRACNet Limited, Mohakhali Dhaka.</p>
+                            <p class="font-semibold"><i>Industrial Training - Full time</i></p>
+                        </div>
+                        <p class="ml-auto text-slate-500">(November 2020 - December 2020)</p>
+                    </div>
+                    <p class="pt-2">
+                        At this training, I was introduced to several fields of information network technology such as the Internet, Intranet, Cloud Services, Data Center, Information Security, System Integration, Managed Services, Smart Home, IP Telephony, Video Conferencing, IoT, ISP, IGP, Sales & Marketing, Service Helpline, Procurement. 
+                    </p>
+                     <p>It was also a Hands-on experience with highly proficient personnel who have experience of over 5-10 years.</p>
+                    <div class="end-line"></div>
+                </div>
+                <div>
+                    <P class="section-title">PROFESSIONAL SKILLS</P>
+                    <div class="pt-2">
+                        <p class="sub-title">Frontend Web Development Frameworks:</p> 
+                        <span class="skill">Vue.js</span>
+                        <span class="skill">Vuetify</span>
+                        <span class="skill">Tailwind-CSS</span>
+
+                        <p class="sub-title mt-2">Programming Languages:</p> 
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Python</span>
+                        <span class="skill">C++</span>
+                        <span class="skill">C</span>
+
+                        <p class="sub-title mt-2">Version-control System:</p> 
+                        <span class="skill">Git</span>
+                        <span class="skill">GitHub</span>
+                    </div>
+                    <div class="end-line"></div>
+                </div>
+                <div>
+                    <P class="section-title">EDUCATION</P>
+                    <div class="pt-2">
+                        <p class="font-semibold text-lg">Noakhali Science & Technology University</p>
+                        <p class="text-slate-500 mb-1 text-lg">January 2017 – April 2022 | B.Sc. in Engineering</p>
+                        <p><span class="font-semibold text-lg">Major: </span> <span class="text-lg">Information & Communication Technology</span></p>
+                        <p><span class="font-semibold">CGPA: </span> <span class="text-lg">3.17</span></p>
+                    </div>
+                    <div class="sub-end-line"></div>
+                    <div class="pt-2">
+                        <p class="font-semibold text-lg">Dhaka Residential Model College</p>
+                        <p class="text-slate-500 mb-1 text-lg">June 2013 – July 2015 | HSC</p>
+                        <p><span class="font-semibold text-lg">Major: </span> <span class="text-lg">Science</span></p>
+                        <p><span class="font-semibold">GPA: </span> <span class="text-lg">5.00</span></p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <div>
+                    <P class="section-title">PROJECTS</P>
+                    <div class="pt-2">
+                        <div class="mb-2">
+                            <p class="flex mb-2"><span class="font-bold mb-1 text-lg">Student Attendance Management System </span> <i class="ml-auto">(VueJS, Vuetify, Django)</i></p> 
+                            <p>A QR code-based student attendance management system was developed for the ICE (Information & Communication Engineering) department of Noakhali Science and Technology University (NSTU). The backend was developed in Django and the frontend was developed in Vue.js and Vuetify. It was a group project, where my main responsibilities involved developing the frontend. In this project, CRUD operation can be performed by admins on students, instructors as well as other academic-related data. The main feature includes taking attendance based on the QR code checking mechanism. Instructors can take attendance manually or ask the students to scan their ID in front of the camera of the instructor's pc. Both students and instructors could see the detailed report based on the course. </p>
+                            <p class="mt-4 text-center"><button class="btn" onclick="message()">Visit this Project</a></button></p>
+                            <p id="demo" class="mt-2 text-center text-lg font-semibold text-green-500"></p>
+                        </div>
+                        <div class="bg-slate-200 h-1 w-full mt-3 mb-3"></div>
+                        <div>
+                            <p class="flex mb-2"><span class="font-bold mb-1 text-lg">Tic Tac Toe </span> <i class="ml-auto">(Python)</i></p> 
+                            <p>It is a game that had been made while I was learning Python. Toss can be performed here and a player’s move can also be monitored to check whether a move is valid or not. Finally, depending on the result a winner is declared. If there's no winner then the match is declared a tie. Re-match option is also available here for playing again.</p>
+                            <p class="mt-4 text-center"><button class="btn"><a href="https://replit.com/@ScarecrowProloy/Tic-Tac-Toe#main.py" target="_blank">Visit this Project</a></button></p>
+                        </div>
+                    </div>
+                    <div class="end-line"></div>
+                </div>
+                <div>
+                    <P class="section-title">ACHIEVEMENTS</P>
+                    <div class="pt-2">
+                        <div>
+                            <p class="font-bold mb-1 text-lg">Online Tournaments:</p> 
+                            <p class="pl-6">
+                                <span class="text-lg">- Intra University PI Day Contest (2018): </span> 
+                                <span >Ranked 3<sup>rd</sup></span>
+                            </p>
+                            <p class="pl-6">
+                                <span class="text-lg">- Intra University PI Day Contest (2019): </span> 
+                                <span >Ranked 4<sup>th</sup></span>
+                            </p>
+                            <p class="pl-6">
+                                <span class="text-lg">- ICE Fest Programming Contest: </span> 
+                                <span >Ranked 4<sup>th</sup></span>
+                            </p>
+                            <p class="pl-6">
+                                <span class="text-lg">- Intra University Independence Day Contest: </span> 
+                                <span >Ranked 6<sup>th</sup></span>
+                            </p>
+                        </div>
+                        <div class="sub-end-line"></div>
+                        <div class="mt-2">
+                            <p class="font-bold mb-1 text-lg">Online Contest Profiles:</p> 
+                            <p class="pl-6">
+                                <span class="">- Codeforces :</span> 
+                                <a href="http://codeforces.com/profile/_scarecrow_" target="_blank" class="text-blue-600 font-bold rounded-lg px-3 "> _scarecrow_ </a>
+                            </p>
+                            <p class="pl-6 mb-1">
+                                <span class="">- Leetcode :</span> 
+                                <a href="https://leetcode.com/Proloy/" target="_blank" class="text-blue-600 font-bold rounded-lg px-3 ">Proloy</a>
+                            </p>
+                        </div>
+                        Algorithmic problem solving (solved around 300 problems on various online platforms)
+
+                    </div>
+                    <div class="end-line"></div>
+                </div>
+                <div>
+                    <P class="section-title">PERSONAL SKILLS</P>
+                    <div class="pt-2">
+                        <p class="font-bold text-lg">- Interpersonal Skills: <span class="font-normal text-lg">Communication (Bangla & English), Team working</span></p> 
+
+                        <p class="font-bold text-lg">- Hobby: <span class="font-normal text-lg">Competitive programming, Watching anime series, Listening to music, Playing flute & guitar, Writing</span></p> 
+                        
+                    </div>
+                </div>
+        </div>
+
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
